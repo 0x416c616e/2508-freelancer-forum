@@ -1,0 +1,50 @@
+body {
+  align-items: center;
+  text-align: center;
+}
+#app {
+}
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+td {
+  padding: 0;
+}
+td,
+th {
+  min-width: 200px;
+  text-align: left;
+}
+table {
+  border-spacing: 0;
+  border: 2px solid black;
+}
+#freelancer-name-th {
+  border-bottom: 2px solid black;
+  border-right: 2px dotted gray;
+}
+#freelancer-occupation-th {
+  border-bottom: 2px solid black;
+}
+#freelancer-rate-th {
+  border-bottom: 2px solid black;
+  border-left: 2px dotted gray;
+}
+
+.freelancer-name-td {
+  border-bottom: 2px dotted gray;
+  border-right: 2px dotted gray;
+}
+
+.freelancer-occupation-td {
+  border-bottom: 2px dotted gray;
+}
+
+.freelancer-rate-td {
+  border-bottom: 2px dotted gray;
+  border-left: 2px dotted gray;
+}
+
+table {
+  margin: 0px auto;
+}
